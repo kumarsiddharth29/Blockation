@@ -1,0 +1,41 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "connect-mongodb-session": "^5.0.0",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "express-session": "^1.18.0",
+    "formidable": "^2.1.1",
+    "ipfs-http-client": "^53.0.1",
+    "ipfs-mini": "^1.1.5",
+    "minimist": "^1.2.7",
+    "mongoose": "^6.9.0",
+    "nodemon": "^2.0.22",
+    "passport": "^0.5.0",
+    "passport-facebook": "^3.0.0",
+    "passport-github2": "^0.1.12",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.9",
+    "hardhat": "^2.22.9"
+  }
+}
